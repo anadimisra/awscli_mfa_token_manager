@@ -5,7 +5,7 @@ with open("README.md", "r") as readme_file:
 
 setuptools.setup(
     name="awscli_mfa_token_manager",
-    version="1.0.0",
+    version="1.0.1",
     author="Anadi Misra",
     author_email="anadi.msr@gmail.com",
     description="Module to generate credentials from MFA device for AWS CLI ",
@@ -29,7 +29,6 @@ setuptools.setup(
         "pytest==6.1.1",
         "setuptools==50.3.0",
         "tox==3.20.1",
-        "yaml==0.2.5",
         "yapf==0.30.0",
         "pip==20.2.2",
     ]
